@@ -29,3 +29,8 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_PACKAGE_OVERLAYS = device/devtitans/kraken/overlay
 
 
+# Adiciona os modulos 
+PRODUCT_PACKAGES += \
+    UniversalMediaPlayer \
+    hello_c \
+    nano

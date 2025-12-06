@@ -25,7 +25,7 @@ LOCAL_SRC_FILES:= \
 
 LOCAL_C_INCLUDES += \
 	$(LOCAL_PATH) \
-	external/libncurses/include
+	device/devtitans/kraken/external/libncurses/include
 
 LOCAL_CFLAGS += \
 	-DHAVE_CONFIG_H \

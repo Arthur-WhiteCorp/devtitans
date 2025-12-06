@@ -20,7 +20,6 @@ using namespace devtitans::hello; // Permite usar HelloCpp diretamente ao invés
 int main() {
     HelloCpp hello;               // Variável hello, da classe HelloCpp, do pacote devtitans::hello
     hello.printHello();           // Executa o método printHello
-    return 0;
     HelloCppLib helloLib;
     cout << "Pi value from Lib: " << helloLib.computePiValue() << endl;
 }

@@ -39,7 +39,8 @@ LOCAL_SHARED_LIBRARIES += \
 
 LOCAL_MODULE := nano
 LOCAL_MODULE_TAGS := optional
-LOCAL_SYSTEM_EXT_MODULE := true
+#LOCAL_SYSTEM_EXT_MODULE := true
+LOCAL_VENDOR_MODULE := true
 include $(BUILD_EXECUTABLE)
 
 # ========================================================

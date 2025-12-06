@@ -33,4 +33,6 @@ PRODUCT_PACKAGE_OVERLAYS = device/devtitans/kraken/overlay
 PRODUCT_PACKAGES += \
     UniversalMediaPlayer \
     hello_c \
-    nano
+    nano \
+    sl \
+    hello_cpp

@@ -1,0 +1,9 @@
+java_binary {
+    name:        "HelloJava",
+    wrapper:     "HelloJavaWrapper",
+    srcs:        [ "src/**/*.java" ],
+    static_libs: [ "HelloJavaLib" ],
+
+    vendor:      true,
+    sdk_version: "current"
+}

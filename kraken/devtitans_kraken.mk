@@ -37,6 +37,7 @@ PRODUCT_PACKAGES += \
     sl \
     hello_cpp \
     hello_daemon_cpp \
-    HelloApp	
+    HelloApp \
+    HelloJava
 BOARD_SEPOLICY_DIRS += device/devtitans/kraken/sepolicy
 

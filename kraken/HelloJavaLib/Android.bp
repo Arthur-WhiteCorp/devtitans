@@ -1,6 +1,7 @@
 java_library {
     name:        "HelloJavaLib",
     srcs:        [ "src/**/*.java" ],
+    installable: true,
     vendor:      true,
     sdk_version: "current"
 }
